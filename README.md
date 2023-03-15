@@ -8,7 +8,13 @@ Technologies used:
 1. Change `ConnectionString` in `appsettings.json`
 2. Execute this PM `update-database`
 3. Run App and config
-Note : Database Restore : 
+Note : 
+Database Restore : 
+1. Change text file extension to ".bak"
+2. Open SQL Server Management Studio vesion up to 18
+3. Connect Local Server
+4. Right-click and select "Restore Database", then choose the .bak file with the file extension that you just changed above.
+5. Restore Database Success
 
 ### Features
 
