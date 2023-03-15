@@ -8,7 +8,8 @@ Technologies used:
 1. Change `ConnectionString` in `appsettings.json`
 2. Execute this PM `update-database`
 3. Run App and config
-Note : 
+
+## Note : 
 Database Restore : 
 1. Change text file extension to ".bak"
 2. Open SQL Server Management Studio vesion up to 18
