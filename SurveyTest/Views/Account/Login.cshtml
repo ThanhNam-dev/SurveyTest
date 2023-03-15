@@ -1,0 +1,101 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="~/login/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- Bootstrap-5 -->
+    <link rel="stylesheet" href="~/login/assets/css/bootstrap.min.css">
+
+    <!-- custom-styles -->
+    <link rel="stylesheet" href="~/login/assets/css/style.css">
+    <link rel="stylesheet" href="~/login/assets/css/responsive.css">
+    <link rel="stylesheet" href="~/login/assets/css/animation.css">
+</head>
+<body>
+    <main class="overflow-hidden">
+        <div class="container">
+            <div class="row h-100">
+                <div class="col-md-6 pe-0 tab-100 order_c mob-100">
+                    <div class="side slideup ">
+                        <article>
+                            <h2 class="main-heading">JOIN THE  LARGEST ART <span class="highlight-text">COMMUNITY IN THE WORLD</span></h2>
+                            
+                        </article>
+                        
+                    </div>
+                    <div class="border-b slideup"></div>
+                </div>
+                <div class="col-md-6 ps-0 tab-100 mob-100">
+                    <div class="slidedown border-t"></div>
+                    <div class="form slidedown">
+                        <div class="form-text login">
+                            <h3>Log In</h3>
+                            
+                        </div>
+                        
+                        <form method="post" asp-controller="Account" asp-action="Login">
+                            <div class="input-field">
+                                <input type="number" id="mail-email" name="IDSV" required>
+                                <label>
+                                    <i class="fa-regular fa-user"></i>IDSV
+                                </label>
+                            </div>
+                            <div class="input-field delay-100ms">
+                                <input type="password" id="password" name="Password" required>
+                                <label>
+                                    <i class="fa-solid fa-wrench"></i>Password
+                                </label>
+                            </div>
+                            <input type="hidden" name="returnUrl" value="@ViewData["ReturnUrl"]">
+                            <div><p style="text-align: center;color:red;    padding-top: 10%;">@ViewData["Error"]</p></div>
+                            <div class="radio-field">
+                                <input type="checkbox">
+                                <label>Keep me Logged In</label>
+                            </div>
+                            <button class="form-btn login" id="login" type="submit"><span>log in</span></button>
+                        </form>
+                        
+                        <div class="con-text login">
+                            <p class="mt-5">Forgot your <strong>username or password?</strong></p>
+                            <p class="mt-5">
+                                By clicking Log In. I confirm that I have read and agree
+                                to the Userthemes <a href="#">Terms of Service. Privacy Policy.</a> and
+                                to receive emails and updates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+    <div id="error">
+    </div>
+
+
+    <!-- Bootstrap-5 -->
+    <script src="~/login/assets/js/bootstrap.min.js"></script>
+
+    <!-- Jquery -->
+    <script src="~/login/assets/js/jquery-3.6.1.min.js"></script>
+
+    <!-- My js -->
+    <script src="~/login/assets/js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+﻿@model IEnumerable<SurveyTest.Business.Models.Forms>
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">List Survey - <a asp-controller="Forms" asp-action="Create">Tạo mới</a></h5>
+                <p class="text-sm mb-0">
+                    A lightweight, extendable, dependency-free javascript HTML
+                    table plugin.
+                </p>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-flush" id="datatable-basic">
+                    <thead class="thead-light">
+                        <tr>
+                            
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                Preview
+                            </th>
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                Who
+                            </th>
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                Publish
+                            </th>
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                Setting
+                            </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(var item in Model){
+                            <tr>
+                                
+                                <td class="text-sm font-weight-normal">
+                                    <a asp-controller="Forms" asp-action="Preview" asp-route-id="@item.Id">@item.Id</a>
+                                </td>
+                                <td class="text-sm font-weight-normal">
+                                    @if(item.Publish == true){
+                                        <a asp-controller="Forms" asp-action="Surveys" target="_blank" asp-route-id="@item.Id">@item.Title</a>
+                                    } else
+                                    {
+                                        @item.Title
+                                    }
+                                    
+                                </td>
+                                <td class="text-sm font-weight-normal">
+                                    <div class="form-check form-switch ms-2">
+                                        <input class="form-check-input" type="checkbox" onclick="location.href='change/@item.Id';" id="flexSwitchCheckDefault23" checked="@item.Publish" onchange="visible()">
+                                    </div>
+                                </td>
+                                <td class="text-sm font-weight-normal">
+                                    <a asp-controller="Forms" asp-action="Info" asp-route-id="@item.Id">
+                                        View Data
+                                    </a>
+                                </td>
+
+                            </tr>
+                        }
+                        
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

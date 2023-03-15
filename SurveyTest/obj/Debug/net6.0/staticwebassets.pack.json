@@ -1,0 +1,745 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SurveyTest.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SurveyTest.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\42d5adcbca.js",
+      "PackagePath": "staticwebassets\\admin\\42d5adcbca.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\css\\nucleo-icons.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\nucleo-icons.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\css\\nucleo-svg.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\nucleo-svg.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\css\\soft-ui-dashboard.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\soft-ui-dashboard.min.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\fonts\\nucleo-icons.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\nucleo-icons.eot"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\fonts\\nucleo-icons.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\nucleo-icons.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\fonts\\nucleo-icons.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\nucleo-icons.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\fonts\\nucleo-icons.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\nucleo-icons.woff"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\fonts\\nucleo-icons.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\nucleo-icons.woff2"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\img\\bruce-mars.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\bruce-mars.jpg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\img\\curved-images\\white-curved.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\curved-images\\white-curved.jpg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\img\\logo-ct-dark.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\logo-ct-dark.png"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\img\\small-logos\\logo-asana.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\small-logos\\logo-asana.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\img\\small-logos\\logo-atlassian.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\small-logos\\logo-atlassian.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\img\\small-logos\\logo-slack.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\small-logos\\logo-slack.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\img\\small-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\small-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\js\\plugins\\choices.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\plugins\\choices.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\js\\plugins\\datatables.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\plugins\\datatables.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\js\\plugins\\dragula\\dragula.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\plugins\\dragula\\dragula.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\js\\plugins\\jkanban\\jkanban.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\plugins\\jkanban\\jkanban.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\js\\plugins\\multistep-form.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\plugins\\multistep-form.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\js\\plugins\\smooth-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\plugins\\smooth-scrollbar.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\assets\\js\\soft-ui-dashboard.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\soft-ui-dashboard.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\beacon.min.js\\vaafb692b2aea4879b33c060e79fe94621666317369993.js",
+      "PackagePath": "staticwebassets\\admin\\beacon.min.js\\vaafb692b2aea4879b33c060e79fe94621666317369993.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\buttons.js",
+      "PackagePath": "staticwebassets\\admin\\buttons.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\cdn-cgi\\scripts\\5c5dd728\\cloudflare-static\\email-decode.min.js",
+      "PackagePath": "staticwebassets\\admin\\cdn-cgi\\scripts\\5c5dd728\\cloudflare-static\\email-decode.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\getDataNotification.js",
+      "PackagePath": "staticwebassets\\admin\\getDataNotification.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\input.files[0]",
+      "PackagePath": "staticwebassets\\admin\\input.files[0]"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\publicNumber.js",
+      "PackagePath": "staticwebassets\\admin\\publicNumber.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\admin\\pushQuestion.js",
+      "PackagePath": "staticwebassets\\admin\\pushQuestion.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\app.bundle.min.js",
+      "PackagePath": "staticwebassets\\app.bundle.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\client\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\custom.css",
+      "PackagePath": "staticwebassets\\client\\css\\custom.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\ElegantIcons.eot"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\ElegantIcons.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\ElegantIcons.woff"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\Glyphter.eot",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\Glyphter.eot"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\Glyphter.svg",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\Glyphter.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\Glyphter.ttf",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\Glyphter.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\Glyphter.woff",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\Glyphter.woff"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\Pe-icon-7-stroke.eot",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\Pe-icon-7-stroke.eot"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\Pe-icon-7-stroke.svg",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\Pe-icon-7-stroke.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\Pe-icon-7-stroke.ttf",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\Pe-icon-7-stroke.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\Pe-icon-7-stroke.woff",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\Pe-icon-7-stroke.woff"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\fontello.eot",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\fontello.eot"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\fontello.svg",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\fontello.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\fontello.ttf",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\fontello.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\fontello.woff",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\fontello.woff"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\smiles.eot",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\smiles.eot"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\smiles.svg",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\smiles.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\smiles.ttf",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\smiles.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\smiles.woff",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\smiles.woff"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\themify.eot",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\themify.eot"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\themify.svg",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\themify.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\themify.ttf",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\themify.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\icon_fonts\\font\\themify.woff",
+      "PackagePath": "staticwebassets\\client\\css\\icon_fonts\\font\\themify.woff"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\style.css",
+      "PackagePath": "staticwebassets\\client\\css\\style.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\css\\vendors.css",
+      "PackagePath": "staticwebassets\\client\\css\\vendors.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\client\\img\\favicon.ico"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\client\\img\\logo.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\img\\main_icon_1.svg",
+      "PackagePath": "staticwebassets\\client\\img\\main_icon_1.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\img\\pattern_3.svg",
+      "PackagePath": "staticwebassets\\client\\img\\pattern_3.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\js\\common_scripts.min.js",
+      "PackagePath": "staticwebassets\\client\\js\\common_scripts.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\js\\functions.js",
+      "PackagePath": "staticwebassets\\client\\js\\functions.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\js\\jquery-3.6.3.min.js",
+      "PackagePath": "staticwebassets\\client\\js\\jquery-3.6.3.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\js\\survey_func.js",
+      "PackagePath": "staticwebassets\\client\\js\\survey_func.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\client\\req\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\custom.css",
+      "PackagePath": "staticwebassets\\client\\req\\css\\custom.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\ElegantIcons.eot"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\ElegantIcons.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\ElegantIcons.woff"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\Glyphter.eot",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\Glyphter.eot"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\Glyphter.svg",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\Glyphter.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\Glyphter.ttf",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\Glyphter.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\Glyphter.woff",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\Glyphter.woff"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\Pe-icon-7-stroke.eot",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\Pe-icon-7-stroke.eot"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\Pe-icon-7-stroke.svg",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\Pe-icon-7-stroke.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\Pe-icon-7-stroke.ttf",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\Pe-icon-7-stroke.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\Pe-icon-7-stroke.woff",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\Pe-icon-7-stroke.woff"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\fontello.eot",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\fontello.eot"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\fontello.svg",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\fontello.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\fontello.ttf",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\fontello.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\fontello.woff",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\fontello.woff"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\smiles.eot",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\smiles.eot"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\smiles.svg",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\smiles.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\smiles.ttf",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\smiles.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\smiles.woff",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\smiles.woff"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\themify.eot",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\themify.eot"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\themify.svg",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\themify.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\themify.ttf",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\themify.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\icon_fonts\\font\\themify.woff",
+      "PackagePath": "staticwebassets\\client\\req\\css\\icon_fonts\\font\\themify.woff"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\style.css",
+      "PackagePath": "staticwebassets\\client\\req\\css\\style.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\css\\vendors.css",
+      "PackagePath": "staticwebassets\\client\\req\\css\\vendors.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\client\\req\\img\\pattern_3.svg",
+      "PackagePath": "staticwebassets\\client\\req\\img\\pattern_3.svg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\ajax\\libs\\font-awesome\\6.2.0\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\login\\ajax\\libs\\font-awesome\\6.2.0\\css\\all.min.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\ajax\\libs\\font-awesome\\6.2.0\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\login\\ajax\\libs\\font-awesome\\6.2.0\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\ajax\\libs\\font-awesome\\6.2.0\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\login\\ajax\\libs\\font-awesome\\6.2.0\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\ajax\\libs\\font-awesome\\6.2.0\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\login\\ajax\\libs\\font-awesome\\6.2.0\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\ajax\\libs\\font-awesome\\6.2.0\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\login\\ajax\\libs\\font-awesome\\6.2.0\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\ajax\\libs\\font-awesome\\6.2.0\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\login\\ajax\\libs\\font-awesome\\6.2.0\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\ajax\\libs\\font-awesome\\6.2.0\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\login\\ajax\\libs\\font-awesome\\6.2.0\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\ajax\\libs\\font-awesome\\6.2.0\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\login\\ajax\\libs\\font-awesome\\6.2.0\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\ajax\\libs\\font-awesome\\6.2.0\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\login\\ajax\\libs\\font-awesome\\6.2.0\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\assets\\css\\animation.css",
+      "PackagePath": "staticwebassets\\login\\assets\\css\\animation.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\login\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\login\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\login\\assets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\assets\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\login\\assets\\images\\background.jpg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\assets\\images\\bg-2.jpg",
+      "PackagePath": "staticwebassets\\login\\assets\\images\\bg-2.jpg"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\login\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\login\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\login\\assets\\js\\jquery-3.6.1.min.js",
+      "PackagePath": "staticwebassets\\login\\assets\\js\\jquery-3.6.1.min.js"
+    },
+    {
+      "Id": "F:\\ITSupport\\Web\\SurveyTest\\SurveyTest\\wwwroot\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SurveyTest.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.SurveyTest.props",
+      "PackagePath": "build\\SurveyTest.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.SurveyTest.props",
+      "PackagePath": "buildMultiTargeting\\SurveyTest.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.SurveyTest.props",
+      "PackagePath": "buildTransitive\\SurveyTest.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,14 @@
+F:\ITSupport\Web\SurveyTest\SurveyTest.Business\obj\Debug\net6.0\SurveyTest.Business.csproj.AssemblyReference.cache
+F:\ITSupport\Web\SurveyTest\SurveyTest.Business\obj\Debug\net6.0\SurveyTest.Business.GeneratedMSBuildEditorConfig.editorconfig
+F:\ITSupport\Web\SurveyTest\SurveyTest.Business\obj\Debug\net6.0\SurveyTest.Business.AssemblyInfoInputs.cache
+F:\ITSupport\Web\SurveyTest\SurveyTest.Business\obj\Debug\net6.0\SurveyTest.Business.AssemblyInfo.cs
+F:\ITSupport\Web\SurveyTest\SurveyTest.Business\obj\Debug\net6.0\SurveyTest.Business.csproj.CoreCompileInputs.cache
+F:\ITSupport\Web\SurveyTest\SurveyTest.Business\bin\Debug\net6.0\SurveyTest.Business.deps.json
+F:\ITSupport\Web\SurveyTest\SurveyTest.Business\bin\Debug\net6.0\SurveyTest.Business.runtimeconfig.json
+F:\ITSupport\Web\SurveyTest\SurveyTest.Business\bin\Debug\net6.0\SurveyTest.Business.dll
+F:\ITSupport\Web\SurveyTest\SurveyTest.Business\bin\Debug\net6.0\SurveyTest.Business.pdb
+F:\ITSupport\Web\SurveyTest\SurveyTest.Business\obj\Debug\net6.0\SurveyTest.Business.dll
+F:\ITSupport\Web\SurveyTest\SurveyTest.Business\obj\Debug\net6.0\refint\SurveyTest.Business.dll
+F:\ITSupport\Web\SurveyTest\SurveyTest.Business\obj\Debug\net6.0\SurveyTest.Business.pdb
+F:\ITSupport\Web\SurveyTest\SurveyTest.Business\obj\Debug\net6.0\SurveyTest.Business.genruntimeconfig.cache
+F:\ITSupport\Web\SurveyTest\SurveyTest.Business\obj\Debug\net6.0\ref\SurveyTest.Business.dll

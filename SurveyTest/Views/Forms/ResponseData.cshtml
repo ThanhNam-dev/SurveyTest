@@ -1,0 +1,48 @@
+﻿@model IEnumerable<SurveyTest.Business.Models.FormRequestAnswer>
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Danh sách đáp án</h5>
+                <p class="text-sm mb-0">
+                    A lightweight, extendable, dependency-free javascript HTML
+                    table plugin.
+                </p>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-flush" id="datatable-basic">
+                    <thead class="thead-light">
+                        <tr>
+
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                Câu hỏi
+                            </th>
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                Đáp án
+                            </th>
+                            
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(var item in Model){
+                            <tr>
+                                <td class="text-sm font-weight-normal">
+                                    @item.IdFormAnswer.IdFormQuestion.Title
+                                    @item.IdFormAnswer.IdFormQuestion.Description
+                                </td>
+                                <td class="text-sm font-weight-normal">
+                                    @item.IdFormAnswer.Answer
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

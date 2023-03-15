@@ -1,0 +1,47 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">List Survey</h5>
+                <p class="text-sm mb-0">
+                    A lightweight, extendable, dependency-free javascript HTML
+                    table plugin.
+                </p>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-flush" id="datatable-basic">
+                    <thead class="thead-light">
+                        <tr>
+
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                Preview
+                            </th>
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                Who
+                            </th>
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                Publish
+                            </th>
+                            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                Setting
+                            </th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="idDataRepo">
+                        
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="~/signalr/dist/browser/signalr.js"></script>
+<script src="~/admin/getDataNotification.js" asp-append-version="true"></script>

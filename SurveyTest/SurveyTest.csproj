@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.17" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\SurveyTest.Business\SurveyTest.Business.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="wwwroot\admin\img\leaflet\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="wwwroot\admin\assets\fonts\nucleo-icons.svg" />
+	  <None Include="wwwroot\admin\assets\fonts\nucleo-icons.woff2" />
+	  <None Include="wwwroot\admin\assets\img\small-logos\logo-spotify.svg" />
+	  <None Include="wwwroot\admin\assets\js\core\bootstrap.min.js" />
+	  <None Include="wwwroot\admin\assets\js\core\popper.min.js" />
+	  <None Include="wwwroot\admin\assets\js\plugins\datatables.js" />
+	  <None Include="wwwroot\admin\assets\js\plugins\dragula\dragula.min.js" />
+	  <None Include="wwwroot\admin\assets\js\plugins\jkanban\jkanban.js" />
+	  <None Include="wwwroot\admin\assets\js\plugins\multistep-form.js" />
+	  <None Include="wwwroot\admin\assets\js\plugins\perfect-scrollbar.min.js" />
+	  <None Include="wwwroot\admin\assets\js\plugins\smooth-scrollbar.min.js" />
+	  <None Include="wwwroot\admin\assets\js\soft-ui-dashboard.min.js" />
+	  <None Include="wwwroot\admin\beacon.min.js\vaafb692b2aea4879b33c060e79fe94621666317369993.js" />
+	  <None Include="wwwroot\client\css\icon_fonts\font\ElegantIcons.svg" />
+	  <None Include="wwwroot\client\css\icon_fonts\font\fontello.svg" />
+	  <None Include="wwwroot\client\css\icon_fonts\font\Glyphter.svg" />
+	  <None Include="wwwroot\client\css\icon_fonts\font\Pe-icon-7-stroke.svg" />
+	  <None Include="wwwroot\client\css\icon_fonts\font\smiles.svg" />
+	  <None Include="wwwroot\client\css\icon_fonts\font\themify.svg" />
+	  <None Include="wwwroot\client\img\logo.svg" />
+	  <None Include="wwwroot\client\img\main_icon_1.svg" />
+	  <None Include="wwwroot\client\img\pattern_3.svg" />
+	  <None Include="wwwroot\client\js\common_scripts.min.js" />
+	  <None Include="wwwroot\client\js\functions.js" />
+	  <None Include="wwwroot\client\js\jquery-3.6.3.min.js" />
+	  <None Include="wwwroot\client\js\survey_func.js" />
+	</ItemGroup>
+
+</Project>
