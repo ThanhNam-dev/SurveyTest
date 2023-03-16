@@ -42,9 +42,9 @@
                                 </td>
                                 <td class="text-sm font-weight-normal">
                                     @if(item.Publish == true){
-                                        <a asp-controller="Forms" asp-action="Surveys" target="_blank" asp-route-id="@item.Id">@item.Title</a>
+                                        <a asp-controller="Forms" asp-action="SurveyUpdate" target="_blank" asp-route-id="@item.Id">@item.Title</a>
                                     } else
-                                    {
+                                    {   
                                         @item.Title
                                     }
                                     

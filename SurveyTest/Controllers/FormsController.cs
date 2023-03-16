@@ -254,5 +254,20 @@ namespace SurveyTest.Controllers
 
             return View(allData);
         }
+
+        [HttpGet]
+        [Route("tham-gia-khao-sat/{id}")]
+        public async Task<IActionResult> SurveyUpdate(Guid id)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var user = _context.AppUsers.Find(Guid.Parse(userId));
+            var ls = _context.Forms.Where(x => x.Id == id).FirstOrDefault();
+            var check = _context.FormRequest.Where(x => x.IdForm == ls && x.IdUser == Guid.Parse(userId)).ToList();
+            if (check.Count > 0)
+            {
+                return RedirectToAction("notification", "forms");
+            }
+            return View(ls);
+        }
     }
 }

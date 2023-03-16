@@ -1,0 +1,327 @@
+﻿@model SurveyTest.Business.Models.Forms
+@using SurveyTest.Business.Models
+@using Microsoft.AspNetCore.Identity
+@using SurveyTest.Business.Models.Data
+@using Microsoft.EntityFrameworkCore;
+@inject DataDbContext dbContext
+@inject SignInManager<AppUsers> SignInManager
+@inject UserManager<AppUsers> UserManager
+@{
+    Layout = null;
+    IEnumerable<FormQuestion> question = dbContext.FormQuestion.OrderBy(o => o.Order).Where(x => x.IdForm == Model).ToList();
+    var dem = 0;
+    var round = 0;
+    var demData = 1;
+    string classRoom = "submit";
+    string titleHistory = "";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        @Model.Title
+    </title>
+
+    <style>
+
+        /* Styling the Body element i.e. Color,
+                Font, Alignment */
+        body {
+            background-color: #05c46b;
+            font-family: Verdana;
+            text-align: center;
+        }
+
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+            /* Styling form-control Label */
+            .form-control label {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            /* Styling form-control input,
+                select, textarea */
+            .form-control input,
+            .form-control select,
+            .form-control textarea {
+                border: 1px solid #777;
+                border-radius: 2px;
+                font-family: inherit;
+                padding: 10px;
+                display: block;
+                width: 95%;
+            }
+
+                /* Styling form-control Radio
+                button and Checkbox */
+                .form-control input[type="radio"],
+                .form-control input[type="checkbox"] {
+                    display: inline-block;
+                    width: auto;
+                }
+
+        /* Styling Button */
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        .inline-radio label {
+            display: inline-block;
+            margin-right: 10px; /* khoảng cách giữa các label */
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1>@Model.Name</h1>
+    <p>@Model.Description</p>
+    <!-- Create Form -->
+    <form id="form" method="POST" asp-controller="Forms" asp-action="PushSurvey">
+        <input name="idForm" type="hidden" value="@Model.Id">
+        <input name="numberCount" type="hidden" value="@question.Count()">
+        <!-- Details -->
+        
+        
+        @foreach (var iv in question)
+        {
+            
+            dem = dem + 1;
+            string inputString = iv.Question;
+            string separator = "%%";
+            string[] result = inputString.Split(new string[] { separator }, StringSplitOptions.None);
+
+            var dsa = dbContext.FormTablet.Include(i => i.IdTablet).Where(x => x.IdFormQuestion == iv).FirstOrDefault();
+
+            @if (dsa.IdTablet.Type == 1)
+            {
+                <div class="form-control ">
+                    <label>
+                        <b>@iv.Title</b>
+                    </label>
+                    @foreach (string element in result)
+                    {
+                        round++;
+                        @if (element == "Khác")
+                        {
+                    <!-- Input Type Radio Button -->
+
+
+
+
+
+
+                            <label for="recommed-@round">
+                                                    <input type="radio"
+                                       id="y_kien_khac_@demData"
+                                       name="name_@demData"/>@element
+                                
+                             </label>
+                            <textarea type="text"
+                                                   id="name"
+                                                   name="name_@demData"
+                                                   placeholder="Nhập ý kiến khác" ></textarea>
+                            <script>
+                                $('textarea[name=name_@demData]').bind('input propertychange', function () {
+                                    $("#y_kien_khac_@demData").val(this.value);
+                                    $("#y_kien_khac_@demData").prop("checked", true);
+
+                                });
+                            </script>
+                                            }
+                                            else
+                                            {
+                            <label for="recommed-@round">
+                                                    <input type="radio"
+                                       id="recommed-@round"
+                                       name="name_@demData" value="@element"/>@element
+                                                </label>
+                                            
+                                            }
+
+                                        }
+                                    
+                              
+
+
+                </div>
+                demData++;
+
+            }
+            @if (dsa.IdTablet.Type == 2)
+            {
+                if (iv.Title == titleHistory)
+                {
+                    round++;
+                    <div class="form-control inline-radio">
+                        
+                        <p>@iv.Description</p>
+                        <br>
+                        <!-- Input Type Radio Button -->
+                        <div style="width: 100%;
+                    display: flex;
+                    justify-content: space-between;">
+
+                            <label for="recommed-@round">
+                                <input type="radio"
+                                       id="recommed-@round"
+                                       value="Very Bad"
+                                       name="name_@demData" />Rất tệ
+                            </label>
+                            @{
+                                round++;
+                            }
+                            <label for="recommed-@round">
+                                <input type="radio"
+                                       id="recommed-@round"
+                                       value="Bad"
+                                       name="name_@demData" />Tệ
+                            </label>
+                            @{
+                                round++;
+                            }
+                            <label for="recommed-@round">
+                                <input type="radio"
+                                       id="recommed-@round"
+                                       value="Average"
+                                       name="name_@demData" />Trung bình
+                                @{
+                                    round++;
+                                }
+                                <label for="recommed-@round">
+                                    <input type="radio"
+                                           id="recommed-@round"
+                                           value="Good"
+                                           name="name_@demData" />Tốt
+                                </label>
+                                @{
+                                    round++;
+                                }
+                                <label for="recommed-@round">
+                                    <input type="radio"
+                                           id="recommed-@round"
+                                           value="Very Good"
+                                           name="name_@demData" />Rất tốt
+                                </label>
+                        </div>
+                    </div>
+                    demData++;
+                } else
+                {
+                    round++;
+                    <div class="form-control inline-radio">
+                        <label>
+                            <b>
+                                @iv.Title
+                            </b>
+                        </label>
+                        <p>@iv.Description</p>
+                        <br>
+                        <!-- Input Type Radio Button -->
+                        <div style="width: 100%;
+                    display: flex;
+                    justify-content: space-between;">
+
+                            <label for="recommed-@round">
+                                <input type="radio"
+                                       id="recommed-@round"
+                                       value="Very Bad"
+                                       name="name_@demData" />Rất tệ
+                            </label>
+                            @{
+                                round++;
+                            }
+                            <label for="recommed-@round">
+                                <input type="radio"
+                                       id="recommed-@round"
+                                       value="Bad"
+                                       name="name_@demData" />Tệ
+                            </label>
+                            @{
+                                round++;
+                            }
+                            <label for="recommed-@round">
+                                <input type="radio"
+                                       id="recommed-@round"
+                                       value="Average"
+                                       name="name_@demData" />Trung bình
+                                @{
+                                    round++;
+                                }
+                                <label for="recommed-@round">
+                                    <input type="radio"
+                                           id="recommed-@round"
+                                           value="Good"
+                                           name="name_@demData" />Tốt
+                                </label>
+                                @{
+                                    round++;
+                                }
+                                <label for="recommed-@round">
+                                    <input type="radio"
+                                           id="recommed-@round"
+                                           value="Very Good"
+                                           name="name_@demData" />Rất tốt
+                                </label>
+                        </div>
+                    </div>
+                    demData++;
+                }
+                
+            }
+            @if (dsa.IdTablet.Type == 3)
+            {
+                <div class="form-control">
+                    <label for="comment">
+                        <b>@iv.Title</b>
+                    </label>
+                    <p>@iv.Description</p>
+
+                    <!-- multi-line text input control -->
+                    <textarea name="name_@demData" id="comment"
+                              placeholder="Nhập ý kiến của bạn">
+                    </textarea>
+                </div>
+                
+                demData++;
+            }
+            titleHistory = iv.Title;
+
+        }
+        
+
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+
+</html>
